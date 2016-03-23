@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part netrivals module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<form string="Netrivals">
+    <label name="name"/>
+    <field name="name"/>
+    <label name="api_uri"/>
+    <field name="api_uri"/>
+    <label name="scheduler"/>
+    <field name="scheduler"/>
+    <group col="6" colspan="6" id="netrivals_buttons">
+        <button name="update_prices" string="Update Prices" icon="tryton-go-next"/>
+    </group>
+</form>

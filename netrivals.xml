@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- This file is part netrivals module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!-- netrivals -->
+        <record model="ir.ui.view" id="netrivals_view_form">
+            <field name="model">netrivals</field>
+            <field name="type">form</field>
+            <field name="name">netrivals_form</field>
+        </record>
+        <record model="ir.ui.view" id="netrivals_view_tree">
+            <field name="model">netrivals</field>
+            <field name="type">tree</field>
+            <field name="name">netrivals_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_netrivals_form">
+            <field name="name">Netrivals</field>
+            <field name="res_model">netrivals</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_netrivals_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="netrivals_view_tree"/>
+            <field name="act_window" ref="act_netrivals_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_netrivals_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="netrivals_view_form"/>
+            <field name="act_window" ref="act_netrivals_form"/>
+        </record>
+        <menuitem parent="product.menu_main_product" action="act_netrivals_form" id="menu_netrivals_form"/>
+
+        <record model="ir.cron" id="cron_netrivals">
+            <field name="name">Netrivals</field>
+            <field name="request_user" ref="res.user_admin"/>
+            <field name="user" ref="res.user_trigger"/>
+            <field name="active" eval="True"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="number_calls">-1</field>
+            <field name="repeat_missed" eval="False"/>
+            <field name="model">netrivals</field>
+            <field name="function">cron_update_netrivals</field>
+        </record>
+    </data>
+</tryton>

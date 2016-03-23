@@ -1,0 +1,115 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:netrivals,api_uri:"
+msgid "Api URI"
+msgstr "Api URI"
+
+msgctxt "field:netrivals,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:netrivals,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:netrivals,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:netrivals,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:netrivals,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:netrivals,scheduler:"
+msgid "Scheduler"
+msgstr "Planificador de tareas"
+
+msgctxt "field:netrivals,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:netrivals,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:product.netrivals,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:product.netrivals,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:product.netrivals,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.netrivals,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.netrivals,price:"
+msgid "Price"
+msgstr "Precio"
+
+msgctxt "field:product.netrivals,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:product.netrivals,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.netrivals,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.netrivals,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:product.product,netrivals:"
+msgid "Netrivals"
+msgstr "Netrivals"
+
+msgctxt "help:netrivals,scheduler:"
+msgid "Active by crons (import)"
+msgstr "Activar con acciones planificadas (importación)"
+
+msgctxt "model:ir.action,name:act_netrivals_form"
+msgid "Netrivals"
+msgstr "Netrivals"
+
+msgctxt "model:ir.cron,name:cron_netrivals"
+msgid "Netrivals"
+msgstr "Netrivals"
+
+msgctxt "model:ir.ui.menu,name:menu_netrivals_form"
+msgid "Netrivals"
+msgstr "Netrivals"
+
+msgctxt "model:netrivals,name:"
+msgid "Netrivals"
+msgstr "Netrivals"
+
+msgctxt "model:product.netrivals,name:"
+msgid "Product Netrivals"
+msgstr "Productos Netrivals"
+
+msgctxt "view:netrivals:"
+msgid "Netrivals"
+msgstr "Netrivals"
+
+msgctxt "view:netrivals:"
+msgid "Update Prices"
+msgstr "Actualizar precios"
+
+msgctxt "view:product.netrivals:"
+msgid "Netrivals"
+msgstr "Netrivals"
